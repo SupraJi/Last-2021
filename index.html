@@ -5,12 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Welcome to my First step!</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <section>
-      <span>No Service</span>
-      //icon
-    </section>
+    <div id="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <!--wifi icon-->
+        <img
+          src="https://img.icons8.com/external-flatart-icons-solid-flatarticons/64/000000/external-wifi-network-and-cloud-computing-flatart-icons-solid-flatarticons.png"
+        />
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>1%</span>
+        <!--battery icon-->
+        <img
+          class="status-bar__battery"
+          src="https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/64/000000/external-battery-multimedia-kiranshastry-lineal-kiranshastry.png"
+        />
+        <!--bolt icon-->
+        <img
+          class="status-bar__bolt"
+          src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/64/000000/external-bolt-basic-ui-elements-flatart-icons-outline-flatarticons.png"
+        />
+      </div>
+    </div>
+
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">Welcome to Ji's talk</h1>
+      <p class="welcome-header__info">
+        If you have an Account, log in with your phone nember. If you have not,
+        It's okay just type on the blank.
+      </p>
+    </header>
+
+    <form id="Login-form">
+      <input type="text" placeholder="Phone number" required />
+      <input type="password" placeholder="Password" required />
+      <input type="submit" value="Log In" />
+      <a href="#">If you want to contact me, Please press this link</a>
+    </form>
+
+    <a href="https://icons8.com/icon/GtLM2xvfIsFv/wifi">Wifi icon by Icons8</a>
   </body>
 </html>
