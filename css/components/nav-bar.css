@@ -1,0 +1,13 @@
+.nav {
+  background-color: #d4d3d3d0;
+}
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.nav__link img {
+  width: 40px;
+  height: 40px;
+}
