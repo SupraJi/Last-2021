@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat with -Kokoa Clone</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body id="chat-screen">
+    <div id="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <!--wifi icon-->
+        <img
+          class="status-bar__wifi"
+          src="https://img.icons8.com/external-flatart-icons-solid-flatarticons/64/000000/external-wifi-network-and-cloud-computing-flatart-icons-solid-flatarticons.png"
+        />
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>1%</span>
+        <!--battery icon-->
+        <img
+          class="status-bar__battery"
+          src="https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/64/000000/external-battery-multimedia-kiranshastry-lineal-kiranshastry.png"
+        />
+        <!--bolt icon-->
+        <img
+          class="status-bar__bolt"
+          src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/64/000000/external-bolt-basic-ui-elements-flatart-icons-outline-flatarticons.png"
+        />
+      </div>
+    </div>
+
+    <header class="alt-header">
+      <div class="alt-header__column">
+          <a href="chats.html"
+        <i class="fas fa-angle-left fa-3x"></i>
+      </a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">Carrot</h1>
+      </div>
+      <div class="alt-header__column">
+        <span><i class="fas fa-search fa-2x"></i></span>
+        <span><i class="fas fa-bars fa-2x"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen main-chat">
+        <div class="chat__timestamp">
+        Tuesday, Feb 01, 2022
+        </div>
+        <div class="message-row">
+            <img src="css/pictures/carrot.jpeg" >
+            <div class="message-row__content">
+                <span class="message__author">Carrot</span>
+                <div class="message__info">
+                    <span class="message__bubble">Hi!</span>
+                    <span class="message__time">21:27</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="message-row message-row--own">
+           
+            <div class="message-row__content">
+                
+                <div class="message__info">
+                    <span class="message__bubble">Let me see...</span>
+                    <span class="message__time">21:27</span>
+                </div>
+            </div>
+        </div>
+     
+    </main>
+
+   <form class="reply">
+       <div class="reply__column">
+        <i class="far fa-plus-square fa-lg"></i>
+       </div>
+       <div class="reply__column">
+       <input type="text" placeholder="Write a message...">
+       <i class="far fa-smile-wink"></i>
+       <button>
+           <i class="fas fa-arrow-up"></i>
+        </button>
+    </div>
+   </form>
+
+    <script
+      src="https://kit.fontawesome.com/a0714f0742.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
